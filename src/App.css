@@ -1,0 +1,137 @@
+.mediaPlyer {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.Controls {
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-direction: row; /* Safari 6.1+ */
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+  background-color: #8dc7dd;
+  height: 50px;
+  padding-top: 2%;
+  border-radius: 10px;
+  width: 97% !important;
+}
+
+.player-progress-container {
+  position: relative;
+  margin-left: 7px !important;
+  margin-top: 5px !important;
+  width: 70%;
+  height: 12px;
+  margin: 0 auto;
+
+  background-color: #414141;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.player-progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  background-color: #9b9b9b;
+  border-radius: 40px;
+  cursor: pointer;
+
+  &:after {
+    position: absolute;
+    top: -3px;
+    right: -6px;
+    content: "";
+
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50%;
+    background-color: #7748b5;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px 2px;
+  }
+}
+
+.volume-progress-container {
+  position: relative;
+  margin-left: 7px !important;
+  margin-top: 5px !important;
+  width: 100px;
+  height: 12px;
+  margin: 0 auto;
+
+  background-color: #414141;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.volume-progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  background-color: #9b9b9b;
+  border-radius: 40px;
+  cursor: pointer;
+  &:after {
+    position: absolute;
+    top: -3px;
+    right: -6px;
+    content: "";
+
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50%;
+    background-color: #7748b5;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px 2px;
+  }
+}
+.artist {
+  font-weight: bold;
+  padding-left: 1%;
+}
+.songInfo {
+  width: 97%;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-direction: row; /* Safari 6.1+ */
+  display: inline-block;
+  flex-direction: row;
+  border: 1px;
+  border-radius: 6px;
+  /*background-color: #e2e2e2;*/
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  cursor: pointer;
+  border-color: black;
+}
+.duration {
+  float: right;
+  padding-right: 1%;
+}
+.songName {
+  text-align: center;
+}
+.searchInput {
+  width: 96%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 6px;
+  border-color: black;
+  font-size: 18px;
+}
+
+i {
+  cursor: pointer;
+}
+.controlIcon {
+  padding-left: 0.2%;
+  padding-right: 0.2%;
+}
+body{
+  background-color: #e0f8ff;
+}

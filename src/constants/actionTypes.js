@@ -1,0 +1,10 @@
+export const GENERATEPLAYLIST = "GENERATE_PLAY_LIST";
+export const PLAY_MUSIC = "PLAY_MUSIC";
+export const STOP_MUSIC = "STOP_MUSIC";
+export const NEXT_SONG = "NEXT_SONG";
+export const PREV_SONG = "PREV_SONG";
+export const ADJUST_VOLUME = "ADJUST_VOLUME";
+export const CHANGE_CURRENT_TIME = "CHANGE_CURRENT_TIME";
+export const SET_NEW_SONG = "SET_NEW_SONG";
+export const SEARCH_SONG = "SEARCH_SONG";
+export const GENERATE_PLAY_LIST = "GENERATE_PLAY_LIST";
