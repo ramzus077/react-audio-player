@@ -126,7 +126,7 @@ class App extends Component {
       idSong = e.target.parentNode.id;
     }
     this.setState({ keySong: idSong });
-    selectedSong = getSelectedSong(myPlayList, idSong);
+    selectedSong = getSelectedSong(myPlayList, idSong.toString());
     if (selectedSong !== undefined) {
       this.store.dispatch(changeCurrTime(0));
       this.store.dispatch(setNewSong(selectedSong));
@@ -162,7 +162,6 @@ class App extends Component {
   };
 
   filter = (keyWord) => {
-    let researchResult = [];
     let researchKeyWord = keyWord.target.value;
     if (researchKeyWord.length >= 2) {
       this.store.dispatch(
